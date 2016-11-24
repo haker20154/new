@@ -302,7 +302,7 @@ function create_config( )
     "voice",
     "welcome1",
     },
-    sudo_users = {85831686},--Sudo users
+    sudo_users = {211752618},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[SpheroBot + Helper
@@ -311,16 +311,15 @@ A Best Anti spam Open Sourced To
 https://github.com/3pehrdev/Sphero
 developed and founded
 By
-@MrBlackLife
+@boy_virtual
 My chanell
-@SpheroCh
+@SpaceTeam
  thanks to:
-mobin
-mrjacki
+emad
+mmd
 --
 --
 special thanks to
-blacklifeTM
 teleseedTM
 ]],
     help_text_realm = [[
@@ -372,74 +371,118 @@ This command will send text to [group_id]
 » Only owner can use res,setowner,promote,demote and log commands
 ]],
     help_text = [[
-Commands list :
 !kick [username|id]
-You can also do it by reply
+🔵 اخراج شخص از گروه 🔴
+〰〰〰〰〰〰〰〰
 !ban [ username|id]
-You can also do it by reply
+🔵 مسدود کردن شخص از گروه 🔴
+〰〰〰〰〰〰〰〰
 !unban [id]
-You can also do it by reply
+🔵 خارج کردن فرد از لیست مسدودها 🔴
+〰〰〰〰〰〰〰〰
 !who
-Members list
+🔵 لیست اعضای گروه 🔴
+〰〰〰〰〰〰〰〰
 !modlist
-Moderators list
+🔵 لیست مدیران 🔴
+〰〰〰〰〰〰〰〰
 !promote [username]
-Promote someone
+🔵 افزودن شخص به لیست مدیران 🔴
+〰〰〰〰〰〰〰〰
 !demote [username]
-Demote someone
+🔵 خارج کردن شخص از لیست مدیران 🔴
+〰〰〰〰〰〰〰〰
 !kickme
-Will kick user
+🔵 اخراج خود از گروه 🔴
+〰〰〰〰〰〰〰〰
 !about
-Group description
+🔵 دریافت متن گروه 🔴
+〰〰〰〰〰〰〰〰
 !setphoto
-Set and locks group photo
+🔵 عوض کردن عکس گروه 🔴
+〰〰〰〰〰〰〰〰
 !setname [name]
-Set group name
+🔵 عوض کردن اسم گروه 🔴
+〰〰〰〰〰〰〰〰
 !rules
-Group rules
+🔵 دریافت قوانین گروه 🔴
+〰〰〰〰〰〰〰〰
 !id
-Return group id or user id
+🔵 دریافت آیدی گروه یا شخص 🔴
+〰〰〰〰〰〰〰〰
 !help
-Get commands list
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-!set rules [text]
-Set [text] as rules
-!set about [text]
-Set [text] as about
+🔵 دریافت لیست دستورات 🔴
+〰〰〰〰〰〰〰〰
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+🔵 قفل کردن تنظیمات 🔴
+〰〰〰〰〰〰〰〰
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+🔵 بازکردن قفل تنظیمات گروه 🔴
+〰〰〰〰〰〰〰〰
+!mute [all|audio|gifs|photo|video]
+🔵 بیصدا کردن فرمت ها 🔴
+〰〰〰〰〰〰〰〰
+!unmute [all|audio|gifs|photo|video]
+🔵 از حالت بیصدا درآوردن فرمت ها 🔴
+〰〰〰〰〰〰〰〰
+!set rules <text>
+🔵 تنظیم قوانین برای گروه 🔴
+〰〰〰〰〰〰〰〰
+!set about <text>
+🔵 تنظیم متن درباره ی گروه 🔴
+〰〰〰〰〰〰〰〰
 !settings
-Returns group settings
+🔵 مشاهده تنظیمات گروه 🔴
+〰〰〰〰〰〰〰〰
+!muteslist
+🔵 لیست فرمت های بیصدا 🔴
+〰〰〰〰〰〰〰〰
+!muteuser [username]
+🔵 بیصدا کردن شخص در گروه 🔴
+〰〰〰〰〰〰〰〰
+!mutelist
+🔵 لیست افراد بیصدا 🔴
+〰〰〰〰〰〰〰〰
 !newlink
-Create/revoke your group link
+🔵 ساختن لینک جدید 🔴
+〰〰〰〰〰〰〰〰
 !link
-Returns group link
+🔵 دریافت لینک گروه 🔴
+〰〰〰〰〰〰〰〰
 !owner
-Returns group owner id
+🔵 مشاهده آیدی صاحب گروه 🔴
+〰〰〰〰〰〰〰〰
 !setowner [id]
-Will set id as owner
+🔵 یک شخص را به عنوان صاحب گروه انتخاب کردن 🔴
+〰〰〰〰〰〰〰〰
 !setflood [value]
-Set [value] as flood sensitivity
+🔵 تنظیم حساسیت اسپم 🔴
+〰〰〰〰〰〰〰〰
 !stats
-Simple message statistics
-!save [value] [text]
-Save [text] as [value]
+🔵 مشاهده آمار گروه 🔴
+〰〰〰〰〰〰〰〰
+!save [value] <text>
+🔵 افزودن دستور و پاسخ 🔴
+〰〰〰〰〰〰〰〰
 !get [value]
-Returns text of [value]
+🔵 دریافت پاسخ دستور 🔴
+〰〰〰〰〰〰〰〰
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+🔵 پاک کردن [مدیران ,قوانین ,متن گروه] 🔴
+〰〰〰〰〰〰〰〰
 !res [username]
-Returns user id
+🔵 دریافت آیدی افراد 🔴
+💥 !res @username 💥
+〰〰〰〰〰〰〰〰
 !log
-Will return group logs
+🔵 لیست ورود اعضا 🔴
+〰〰〰〰〰〰〰〰
 !banlist
-Will return group ban list
-» U can use both "/" and "!" 
-» Only mods, owner and admin can add bots in group
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-» Only owner can use res,setowner,promote,demote and log commands
-]]
+🔵 لیست مسدود شده ها 🔴
+〰〰〰〰〰〰〰〰
+💥 شما میتوانید از / و ! و # استفاده کنید 💥
+@boy_virtual 📌
+@Space_Team 📌]]
   }
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
